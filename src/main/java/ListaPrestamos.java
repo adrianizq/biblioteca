@@ -24,9 +24,9 @@ public class ListaPrestamos {
         listaPrestamo.add(p);
     }
 
-    //metodo para buscar un usuario por el id
+    //metodo para buscar un prestamo por el id
     //que recibimos ? el id
-    //que retornamos ? el Usuario
+    //que retornamos ? el Prestamo
     public Prestamo buscar(long id){
         Prestamo pvacio = new Prestamo();
         for (Prestamo p: listaPrestamo){
@@ -39,7 +39,7 @@ public class ListaPrestamos {
 
     //metodo para contar los prestamos
     //que debe volver? int
-    //que recibe?  nada
+    //que recibe?  nada porque tenemos la lista de los prestamos en esta clase
     public int contarPrestamos(){
         return listaPrestamo.size();
     }
