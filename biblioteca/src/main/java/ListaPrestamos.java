@@ -24,9 +24,9 @@ public class ListaPrestamos {
         listaPrestamo.add(p);
     }
 
-    //metodo para buscar un usuario por el id
+    //metodo para buscar un prestamo por el id
     //que recibimos ? el id
-    //que retornamos ? el Usuario
+    //que retornamos ? el prestamo
     public Prestamo buscar(long id){
         Prestamo pvacio = new Prestamo();
         for (Prestamo p: listaPrestamo){
